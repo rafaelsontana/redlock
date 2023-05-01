@@ -9,7 +9,7 @@ ENV MYSQL_USER test
 ENV MYSQL_PASSWORD root
 ENV MYSQL_DATABASE Redlock
 
-COPY ./index.php /var/www/html/
+COPY ./*.php /var/www/html/
 
 RUN rm /var/www/html/index.html
 
